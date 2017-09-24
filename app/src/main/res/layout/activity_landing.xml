@@ -8,10 +8,11 @@
     tools:context="com.naradevi.attendancemanager.LandingActivity">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:text="Welcome Screen"
-        android:textAlignment="center"
         android:textColor="@color/colorPrimaryWhite"
         android:textSize="32sp" />
 
