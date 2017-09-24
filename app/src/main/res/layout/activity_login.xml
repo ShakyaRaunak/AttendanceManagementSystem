@@ -29,6 +29,7 @@
             android:id="@+id/email_login_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -73,18 +74,28 @@
                 android:layout_marginTop="16dp"
                 android:background="@drawable/button_design"
                 android:text="@string/action_sign_in"
-                android:textColor="#ffffff"
+                android:textColor="@color/colorPrimaryWhite"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/forgot_password_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/action_forgot_password"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/register_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="60dp"
                 android:gravity="center"
                 android:text="@string/action_register"
-                android:textColor="#ffffff"
-                android:textSize="16dp" />
+                android:textColor="@color/colorPrimaryWhite"
+                android:textSize="16sp" />
 
         </LinearLayout>
     </ScrollView>
